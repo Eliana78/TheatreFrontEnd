@@ -1,0 +1,51 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+  font-size: 1.2rem;
+  transition: font-size 0.3s ease;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#videoShow {
+  background-image: url("https://cdn.pixabay.com/photo/2014/02/05/00/37/staging-258631_640.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.searchDiv {
+  height: 30vh;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+}
+
+.searchContainerBorder {
+  border-bottom: 2px solid black;
+  height: 100%;
+}
+
+.resultSearch {
+  border-bottom: 2px solid black;
+}
+
+#searchButton {
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  #search {
+    width: 700px;
+  }
+  #minPrice,
+  #maxPrice {
+    width: 350px;
+  }
+}

@@ -1,0 +1,43 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+  font-size: 1.2rem;
+  transition: font-size 0.3s ease;
+}
+
+#hero {
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/10/02/23/music-2617224_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.pHero {
+  text-align: justify;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.contactSpan {
+  color: rgb(180, 1, 1);
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.ContactSec a {
+  color: black;
+  text-decoration: none;
+}
